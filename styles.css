@@ -38,8 +38,8 @@ body {
 input {
   
     text-rendering: auto;
-    color: fieldtext;
-    letter-spacing: normal;
+        color: red;
+    letter-spacing: 5px;
     word-spacing: normal;
     line-height: normal;
     text-transform: none;
