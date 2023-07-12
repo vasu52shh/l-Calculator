@@ -87,7 +87,7 @@ fetch('https://api.ipify.org?format=json')
    .then(data => 
         ip=data.ip
         );
-    
+    console.log(ip);
 const data={
   Name:document.getElementById('boyName').value,
   Crush:document.getElementById('girlName').value,
