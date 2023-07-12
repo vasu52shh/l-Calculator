@@ -82,7 +82,7 @@ var div = document.getElementById("btn");
 div.style.display = "none";
 document.getElementById('result').innerHTML =  '<p>'+ temp + '%</p>';
 var ip;
-fetch('https://api.ipify.org?format=json')
+  async fetch('https://api.ipify.org?format=json')
    .then(response => response.json())
    .then(data => console.log(data.ip)  );
     
