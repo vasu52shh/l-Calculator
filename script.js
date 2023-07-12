@@ -85,7 +85,7 @@ var ip;
 fetch('https://api.ipify.org?format=json')
    .then(response => response.json())
    .then(data => 
-        ip=data.ip;
+        ip=data.ip
         );
     
 const data={
