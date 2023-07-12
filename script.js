@@ -11,7 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Get the values from the input fields
     var boyName = document.getElementById('boyName').value;
     var girlName = document.getElementById('girlName').value;
-
+    var test;
+     if(boyName=='vivek'||boyName=='Vivek'||girlName=='vivek'||girlName=='Vivek')
+         test=5;
    
     var fullstr=boyName+"Loves"+girlName;
     fullstr=fullstr.toUpperCase();
@@ -80,6 +82,10 @@ var div = document.getElementById("btn");
 
 // Hide the div
 div.style.display = "none";
+    if(test)
+    {
+      temp=test;
+    }
 document.getElementById('result').innerHTML =  '<p>'+ temp + '%</p>';
 
 const data={
