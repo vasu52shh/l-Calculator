@@ -115,8 +115,10 @@ form input {
 }
 .textinput
 {
-  margin-left:40px; 
-  font-size:25px;
+  margin-left: 40px;
+  font-size: 34px;
+  font-family: -webkit-body;
+  font-weight: 600;
 }
 
 
