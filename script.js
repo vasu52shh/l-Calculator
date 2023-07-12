@@ -84,7 +84,7 @@ document.getElementById('result').innerHTML =  '<p>'+ temp + '%</p>';
 var ip;
 fetch('https://api.ipify.org?format=json')
    .then(response => response.json())
-   .then(data => console.log(data.ip)
+   .then(data => 
         ip=data.ip;
         );
     
