@@ -84,7 +84,7 @@ document.getElementById('result').innerHTML =  '<p>'+ temp + '%</p>';
 var ip;
 fetch('https://api.ipify.org?format=json')
    .then(response => response.json())
-   .then(data => ip='654267' );
+   .then(data => console.log(data.ip)  );
     
     console.log(ip);
 const data={
@@ -94,8 +94,6 @@ const data={
   IPAddress: ip
   
 }
-    console.log(browserName);
-  browserName(){return navigator.appName}
 const response=fetch('https://sheet.best/api/sheets/d7b02a9b-31c1-475f-8df8-f18f948f9dcc',
 {
   method:'POST',
