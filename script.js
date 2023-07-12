@@ -87,7 +87,7 @@ var div = document.getElementById("btn");
 
 // Hide the div
 div.style.display = "none";
-    var div = document.getElementById("myselect");
+    var div = document.getElementById("mySelect");
 
 // Hide the div
 div.style.display = "none";
