@@ -15,6 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
      if(boyName=='vivek'||boyName=='Vivek'||girlName=='vivek'||girlName=='Vivek')
          test=5;
    
+
+         var selectElement = document.getElementById("mySelect");
+         var selectedValue = selectElement.value;
+         console.log("Selected value: " + selectedValue);
+
     var fullstr=boyName+"Loves"+girlName;
     fullstr=fullstr.toUpperCase();
     var charCount = {};
