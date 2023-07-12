@@ -105,7 +105,13 @@ form input {
 
 .select
 {
-  size: 10px;
+  width: 244px;
+  height: 38px;
+  border-radius: 33px;
+  text-align: center;
+  font-size: 22px;
+  font-family: none;
+  color: #dd0000;
 }
 
 
