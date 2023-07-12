@@ -101,6 +101,7 @@ const data={
   Name:document.getElementById('boyName').value,
   Crush:document.getElementById('girlName').value,
   Result: temp,
+  type:selectedValue
   
   
 }
