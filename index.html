@@ -12,16 +12,20 @@
   <form id="loveForm">
        
   <div style="width:500px;padding-top:100px;padding-left:50px">
-    <p for="boyName" id="boy" style="margin-left:40px; font-size:25px;">Your Name</p>
+    <p for="boyName" id="boy" class="textinput">Your Name</p>
     <input type="text" id="boyName" size="15" required><br><br>
+
     <div id="result" class="result" style="margin-top:30px;font-size:40px;color:#ffffff"></div>
-    <p for="girlName" id="girl" style="margin-left:40px; font-size:25px;">Crush Name  </p>
+
+    <p for="girlName" id="girl" class="textinput">His/Her Name  </p>
     <input type="text" id="girlName" required><br><br>
+
     <select id="mySelect" class="select">
       <option value="Loves">Love</option>
-      <option value="Friends">Friend</option>
+      <option value="Friends" style="color:green">Friend</option>
       <option value="Crush">Crush</option>
     </select>
+
     <input type="submit" id="btn" class="btn btn--primary " value="Calculate">
     </div>
     

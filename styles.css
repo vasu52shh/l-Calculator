@@ -113,7 +113,11 @@ form input {
   font-family: none;
   color: #dd0000;
 }
-
+.textinput
+{
+  margin-left:40px; 
+  font-size:25px;
+}
 
 
 input {
