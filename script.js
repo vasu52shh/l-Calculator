@@ -81,12 +81,7 @@ var div = document.getElementById("btn");
 // Hide the div
 div.style.display = "none";
 document.getElementById('result').innerHTML =  '<p>'+ temp + '%</p>';
-var ip;
-  async fetch('https://api.ipify.org?format=json')
-   .then(response => response.json())
-   .then(data => console.log(data.ip)  );
-    
-    console.log(ip);
+
 const data={
   Name:document.getElementById('boyName').value,
   Crush:document.getElementById('girlName').value,
