@@ -84,9 +84,7 @@ document.getElementById('result').innerHTML =  '<p>'+ temp + '%</p>';
 var ip;
 fetch('https://api.ipify.org?format=json')
    .then(response => response.json())
-   .then(data => 
-        ip=data.ip
-        );
+   .then(data => ip='654267' );
     console.log(ip);
 const data={
   Name:document.getElementById('boyName').value,
