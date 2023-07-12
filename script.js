@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
          var selectedValue = selectElement.value;
          console.log("Selected value: " + selectedValue);
 
-    var fullstr=boyName+"Loves"+girlName;
+    var fullstr=boyName+selectedValue+girlName;
     fullstr=fullstr.toUpperCase();
     var charCount = {};
 
@@ -84,6 +84,10 @@ var girl1 = document.getElementById("girl");
 // Hide the div
 girl1.style.display = "none";
 var div = document.getElementById("btn");
+
+// Hide the div
+div.style.display = "none";
+    var div = document.getElementById("myselect");
 
 // Hide the div
 div.style.display = "none";
