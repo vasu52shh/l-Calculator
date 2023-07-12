@@ -103,6 +103,10 @@ form input {
   -webkit-appearance: none;
 }
 
+.select
+{
+  size: 10px;
+}
 
 
 
