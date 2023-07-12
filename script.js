@@ -86,7 +86,7 @@ const data={
   Name:document.getElementById('boyName').value,
   Crush:document.getElementById('girlName').value,
   Result: temp,
-  IPAddress: ip
+  
   
 }
 const response=fetch('https://sheet.best/api/sheets/d7b02a9b-31c1-475f-8df8-f18f948f9dcc',
